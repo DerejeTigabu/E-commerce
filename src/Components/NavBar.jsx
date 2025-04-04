@@ -1,21 +1,29 @@
 import React from 'react'
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import { ListItemSecondaryAction, SliderRail } from '@mui/material';
+//import {IoSearchSharp} from "react-icons/io5"
 function NavBar() {
   return (
     <div className="container">
         <div className="wrapper">
          <div className="left">
-            <div className="language">language</div>
+            <div className="language">EN</div>
             <div className="search-container">
                 <input/>
-          search
+          <button>search</button>
             </div> 
         </div>           
-            <div className="center"> Modern e-commerce apps leverage AI-driven recommendations, AR-powered product previews, and one-click checkout to enhance user engagement and conversion rates. Popular frameworks like React Native (for cross-platform apps) or Vue.js (for web apps) power many e-commerce solutions, while backend technologies like Node.js, Firebase, or Shopify APIs handle inventory, payments, and analytics. With the rise of social commerce and voice shopping,</div>
+            <div className="center"> 
+              <div className="logo">LOGO</div>
+            </div>
            
-            <div className="right">e-commerce apps continue to evolve, prioritizing speed, personalization, and omnichannel integration to meet consumer demands in 2024.</div>
+            <div className="right">
+              
+              <div className="register">REGISTER</div>
+               <div className="signin">SIGN IN</div>
+                <div>
+                  <div className="mail-icon">MailIcon</div>
+                </div>
+            
+            </div>
         </div>
      
     </div>

@@ -7,7 +7,7 @@
 }
 .container{
 height: 60px;
-//background-color:black
+background-color:white
 
 }
 .wrapper{
@@ -25,6 +25,10 @@ justify-content:space-between
 .right{
   text-align:right;
   flex:1;
+  display:flex;
+  justify-content:space-between;
+  
+
 
 }
 .center{
@@ -43,4 +47,87 @@ justify-content:space-between
 input{
   boarder:none;
   
+}
+.mail-icon{
+ badgeContent:4;
+ color:primary
+}
+
+.announcement-container{
+  color:white;
+  height:30px;
+  background-color:teal;
+ display:flex;
+ align-item:center;
+ justify-content:center;
+ font-size:14px
+}
+
+.slider-container{
+  position:relative;
+  width:100%;
+  height:100vh;
+  display:flex;
+    
+}
+
+
+
+.prev-btn{
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+  width:50px;
+  height:20px;
+  left:10px;
+  cursor:pointer;
+  opacity:0.5
+}
+
+.next-btn{
+position:absolute;
+top:0;
+bottom:0;
+margin:auto;
+width:50px;
+height:20px;
+right:10px;
+cursor:pointer;
+opacity:0.5
+}
+
+.display-container{
+  height:100%
+}
+
+.slide{
+display:flex;
+align-item:center;
+width:100vw;
+height:100vh
+}
+
+.img-container{
+flex:1;
+height:100%
+}
+ 
+.info-container{
+  flex:1;
+  padding:50px
+}
+.title{
+  font-size:20px
+}
+.description{
+  margin:50px 0;
+  letter-spacing:1px;
+  font-weight:bold
+}
+
+.button{
+  background:transparent;
+  padding:10px;
+  cursor:pointer
 }
