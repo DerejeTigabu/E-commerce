@@ -1,0 +1,46 @@
+
+* {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.container{
+height: 60px;
+//background-color:black
+
+}
+.wrapper{
+padding: 10px 20px;
+display:flex;
+justify-content:space-between
+
+}
+.left{
+  text-align:left;
+  flex:1;
+  display:flex;
+  align-item:cente
+}
+.right{
+  text-align:right;
+  flex:1;
+
+}
+.center{
+  text-align:center;
+  flex:1;
+}
+.search-container{
+  border: 0.5 solid lightgray;
+  display:flex;
+  align-item:cente;
+  margine-left:25px;
+  padding:5px; 
+
+
+}
+input{
+  boarder:none;
+  
+}
